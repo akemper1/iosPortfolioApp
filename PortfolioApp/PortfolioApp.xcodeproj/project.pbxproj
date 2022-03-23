@@ -11,6 +11,7 @@
 		3A0A3BBE27EBC11B00D986DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0A3BBD27EBC11B00D986DC /* ContentView.swift */; };
 		3A0A3BC027EBC11C00D986DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0A3BBF27EBC11C00D986DC /* Assets.xcassets */; };
 		3A0A3BC327EBC11C00D986DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0A3BC227EBC11C00D986DC /* Preview Assets.xcassets */; };
+		3A0A3BCB27EBC21700D986DC /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A0A3BC927EBC21700D986DC /* Main.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3A0A3BBD27EBC11B00D986DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A0A3BBF27EBC11C00D986DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A0A3BC227EBC11C00D986DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A0A3BCA27EBC21700D986DC /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				3A0A3BBB27EBC11B00D986DC /* PortfolioAppApp.swift */,
 				3A0A3BBD27EBC11B00D986DC /* ContentView.swift */,
+				3A0A3BC927EBC21700D986DC /* Main.xcdatamodeld */,
 				3A0A3BBF27EBC11C00D986DC /* Assets.xcassets */,
 				3A0A3BC127EBC11C00D986DC /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A0A3BCB27EBC21700D986DC /* Main.xcdatamodeld in Sources */,
 				3A0A3BBE27EBC11B00D986DC /* ContentView.swift in Sources */,
 				3A0A3BBC27EBC11B00D986DC /* PortfolioAppApp.swift in Sources */,
 			);
@@ -339,6 +343,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A0A3BC927EBC21700D986DC /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A0A3BCA27EBC21700D986DC /* Main.xcdatamodel */,
+			);
+			currentVersion = 3A0A3BCA27EBC21700D986DC /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3A0A3BB027EBC11B00D986DC /* Project object */;
 }
