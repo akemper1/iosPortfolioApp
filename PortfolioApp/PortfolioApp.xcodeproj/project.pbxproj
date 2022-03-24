@@ -14,6 +14,8 @@
 		3A0A3BCB27EBC21700D986DC /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A0A3BC927EBC21700D986DC /* Main.xcdatamodeld */; };
 		3A0A3BCD27EBC31C00D986DC /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0A3BCC27EBC31C00D986DC /* DataController.swift */; };
 		3A0A3BD227EBC41200D986DC /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0A3BD127EBC41200D986DC /* CloudKit.framework */; };
+		3A0A3BD427ECD6E100D986DC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0A3BD327ECD6E100D986DC /* HomeView.swift */; };
+		3A0A3BD627ECD7D000D986DC /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0A3BD527ECD7D000D986DC /* ProjectsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		3A0A3BCE27EBC3F900D986DC /* PortfolioApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PortfolioApp.entitlements; sourceTree = "<group>"; };
 		3A0A3BCF27EBC40D00D986DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3A0A3BD127EBC41200D986DC /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		3A0A3BD327ECD6E100D986DC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3A0A3BD527ECD7D000D986DC /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				3A0A3BCF27EBC40D00D986DC /* Info.plist */,
 				3A0A3BCE27EBC3F900D986DC /* PortfolioApp.entitlements */,
 				3A0A3BBB27EBC11B00D986DC /* PortfolioAppApp.swift */,
+				3A0A3BD327ECD6E100D986DC /* HomeView.swift */,
+				3A0A3BD527ECD7D000D986DC /* ProjectsView.swift */,
 				3A0A3BBD27EBC11B00D986DC /* ContentView.swift */,
 				3A0A3BC927EBC21700D986DC /* Main.xcdatamodeld */,
 				3A0A3BCC27EBC31C00D986DC /* DataController.swift */,
@@ -159,9 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A0A3BD627ECD7D000D986DC /* ProjectsView.swift in Sources */,
 				3A0A3BCB27EBC21700D986DC /* Main.xcdatamodeld in Sources */,
 				3A0A3BCD27EBC31C00D986DC /* DataController.swift in Sources */,
 				3A0A3BBE27EBC11B00D986DC /* ContentView.swift in Sources */,
+				3A0A3BD427ECD6E100D986DC /* HomeView.swift in Sources */,
 				3A0A3BBC27EBC11B00D986DC /* PortfolioAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
