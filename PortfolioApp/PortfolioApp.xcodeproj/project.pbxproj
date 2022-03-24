@@ -16,6 +16,8 @@
 		3A0A3BD227EBC41200D986DC /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0A3BD127EBC41200D986DC /* CloudKit.framework */; };
 		3A0A3BD427ECD6E100D986DC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0A3BD327ECD6E100D986DC /* HomeView.swift */; };
 		3A0A3BD627ECD7D000D986DC /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0A3BD527ECD7D000D986DC /* ProjectsView.swift */; };
+		3A0A3BD827ED02D500D986DC /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0A3BD727ED02D500D986DC /* Item-CoreDataHelpers.swift */; };
+		3A0A3BDA27ED03C100D986DC /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0A3BD927ED03C100D986DC /* Project-CoreDataHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		3A0A3BD127EBC41200D986DC /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		3A0A3BD327ECD6E100D986DC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3A0A3BD527ECD7D000D986DC /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		3A0A3BD727ED02D500D986DC /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		3A0A3BD927ED03C100D986DC /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 				3A0A3BBB27EBC11B00D986DC /* PortfolioAppApp.swift */,
 				3A0A3BD327ECD6E100D986DC /* HomeView.swift */,
 				3A0A3BD527ECD7D000D986DC /* ProjectsView.swift */,
+				3A0A3BD727ED02D500D986DC /* Item-CoreDataHelpers.swift */,
+				3A0A3BD927ED03C100D986DC /* Project-CoreDataHelpers.swift */,
 				3A0A3BBD27EBC11B00D986DC /* ContentView.swift */,
 				3A0A3BC927EBC21700D986DC /* Main.xcdatamodeld */,
 				3A0A3BCC27EBC31C00D986DC /* DataController.swift */,
@@ -167,10 +173,12 @@
 			files = (
 				3A0A3BD627ECD7D000D986DC /* ProjectsView.swift in Sources */,
 				3A0A3BCB27EBC21700D986DC /* Main.xcdatamodeld in Sources */,
+				3A0A3BDA27ED03C100D986DC /* Project-CoreDataHelpers.swift in Sources */,
 				3A0A3BCD27EBC31C00D986DC /* DataController.swift in Sources */,
 				3A0A3BBE27EBC11B00D986DC /* ContentView.swift in Sources */,
 				3A0A3BD427ECD6E100D986DC /* HomeView.swift in Sources */,
 				3A0A3BBC27EBC11B00D986DC /* PortfolioAppApp.swift in Sources */,
+				3A0A3BD827ED02D500D986DC /* Item-CoreDataHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
